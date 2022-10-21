@@ -1,0 +1,91 @@
+{
+  "invoices": [
+    {
+      "id": "4b4feb05-8879-4843-aa07-64ee7c85caa5",
+      "status": "sent",
+      "line_items": [{"id": "249df155-2069-47eb-a750-0e1c745bcc75", "description": "Developing a prettyer banner."}],
+      "total_cost": {"amount": "89.42", "currency": "USD"},
+      "customer_id": "a2341745-5d7f-4dcc-8b8a-0a4df79120db"
+    },
+    {
+      "id": "d680bc48-7374-43f8-95c9-52fb799976af",
+      "status": "viewed",
+      "line_items": [{"id": "8d658682-94cc-4998-9bfb-78449a2db824", "description": "Working on the CI pipeline."}],
+      "total_cost": {"amount": "189.50", "currency": "USD"},
+      "customer_id": "5fad45a9-0962-4a6e-a6f7-35a3e491f367"
+    },
+    {
+      "id": "304c6a5b-1d4b-4d97-98ce-8cdfa7722deb",
+      "status": "draft",
+      "line_items": [{"id": "ea953c58-fa89-4670-8e7f-66923fe93ff0", "description": "Building a sample component library."}],
+      "total_cost": {"amount": "280.0", "currency": "USD"},
+      "customer_id": "20b1eeec-2db0-4678-9e96-bfd0a848576a"
+    },
+    {
+      "id": "96a196e0-ec98-4300-ac64-f2f611397509",
+      "status": "sent",
+      "line_items": [{"id": "93d4972a-0676-46f0-bcce-2228aa531863", "description": "Washing the test suites and cleaning the codes."}],
+      "total_cost": {"amount": "139.72", "currency": "USD"},
+      "customer_id": "a2341745-5d7f-4dcc-8b8a-0a4df79120db"
+    },
+    {
+      "id": "0e166509-8e9c-4f9f-b22f-0320bae0831b",
+      "status": "payment-started",
+      "line_items": [{"id": "f2d53119-26c0-4220-a8aa-345716726ddb", "description": "Shadowing the DOM."}],
+      "total_cost": {"amount": "589.12", "currency": "USD"},
+      "customer_id": "5fad45a9-0962-4a6e-a6f7-35a3e491f367"
+    },
+    {
+      "id": "9cfa27cd-7d84-4bb0-8412-445b52f6ae5c",
+      "status": "paid",
+      "line_items": [{"id": "85d75c74-9360-42f0-bb7a-b0a1c41501bd", "description": "Insert user friendly description here."}],
+      "total_cost": {"amount": "50.50", "currency": "USD"},
+      "customer_id": "20b1eeec-2db0-4678-9e96-bfd0a848576a"
+    },
+    {
+      "id": "93cb0881-a96f-415d-9689-9c585796b8bb",
+      "status": "paid",
+      "line_items": [{"id": "73e3f66f-b12b-41a2-8587-29a248c14d2d", "description": "Work on the passive react component library."}],
+      "total_cost": {"amount": "1029.48", "currency": "USD"},
+      "customer_id": "a2341745-5d7f-4dcc-8b8a-0a4df79120db"
+    },
+    {
+      "id": "f3a8e53a-1afd-444f-8948-f57eb34c8eb5",
+      "status": "sent",
+      "line_items": [{"id": "6990a993-54b8-4896-bced-2d6e4daba9ac", "description": "Convert new projects from Typescript back to JS and Babel."}],
+      "total_cost": {"amount": "712.10", "currency": "USD"},
+      "customer_id": "5fad45a9-0962-4a6e-a6f7-35a3e491f367"
+    },
+    {
+      "id": "2172f222-dd65-4c7f-a70c-1cb1b0c0f0fb",
+      "status": "viewed",
+      "line_items": [{"id": "20b1eeec-2db0-4678-9e96-bfd0a848576a", "description": "Configure the production server to mine bitcoin when idle."}],
+      "total_cost": {"amount": "240.87", "currency": "USD"},
+      "customer_id": "20b1eeec-2db0-4678-9e96-bfd0a848576a"
+    },
+    {
+      "id": "8dbbe866-db25-4d62-9a9b-412109e0a117",
+      "status": "paid",
+      "line_items": [{"id": "5fad45a9-0962-4a6e-a6f7-35a3e491f367", "description": "Help new team members get cats out of their workspace."}],
+      "total_cost": {"amount": "13.37", "currency": "USD"},
+      "customer_id": "a2341745-5d7f-4dcc-8b8a-0a4df79120db"
+    }
+  ],
+  "customers": [
+    {
+      "id": "a2341745-5d7f-4dcc-8b8a-0a4df79120db",
+      "name": "Jimmy McGill",
+      "phone": "+18014326789"
+    },
+    {
+      "id": "5fad45a9-0962-4a6e-a6f7-35a3e491f367",
+      "name": "Walter White",
+      "phone": "+13856732456"
+    },
+    {
+      "id": "20b1eeec-2db0-4678-9e96-bfd0a848576a",
+      "name": "Jesse Pinkman",
+      "phone": "+12159080031"
+    }
+  ]
+}

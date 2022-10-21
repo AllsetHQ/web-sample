@@ -1,0 +1,45 @@
+{
+  "name": "web-sample",
+  "version": "1.0.0",
+  "description": "Sample project for showcasing front end development skills",
+  "type": "module",
+  "scripts": {
+    "start": "NODE_ENV=development webpack serve",
+    "lint": "eslint --ext .js,.ts .",
+    "db": "json-server --port 4002 --watch db.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllsetHQ/web-sample.git"
+  },
+  "author": "Allset",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AllsetHQ/web-sample/issues"
+  },
+  "homepage": "https://github.com/AllsetHQ/web-sample#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "@types/styled-components": "^5.1.26",
+    "@typescript-eslint/eslint-plugin": "^5.40.1",
+    "@typescript-eslint/parser": "^5.40.1",
+    "eslint": "^8.25.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-unicorn": "^44.0.2",
+    "html-webpack-plugin": "^5.5.0",
+    "json-server": "^0.17.0",
+    "ts-loader": "^9.4.1",
+    "typescript": "^4.8.4",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
