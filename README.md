@@ -16,7 +16,7 @@ Sample project for showcasing front end development skills. This is intended to 
 # Goal
 For this app you'll fetch and display a list of invoices as cards. You'll need to hit the
 local API running at `http://localhost:4002` for sample data. This API is runing using [json-server](https://github.com/typicode/json-server)
-and exposes the `/invoices` and '/customers' resources.
+and exposes the `/invoices` and `/customers` resources.
 
 Use Typescript, React, and StyledComponents (already imported) to develop the UI. Your welcome to setup your source code
 in any organization you like. Please continually make small commits to the repo as you develop changes to better
