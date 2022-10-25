@@ -27,7 +27,7 @@ See the below image for an example of what an invoice card should look like. The
 in rows and columns to fill the available space. Ensure that your design is mobile responsive, and looks good at
 a variety of resolutions.
 
-![Invoice Card](https://storage.googleapis.com/relayapp-production-users/06051578-b817-4240-ace5-8d712dd741c6/logo/company-logo)
+![Invoice Card](https://firebasestorage.googleapis.com/v0/b/relayapp-production.appspot.com/o/invoice_card.png?alt=media&token=3014fffd-0137-4392-85f3-ab8f98ba87b6)
 
 The data being rendered on the invoice card should be:
 - Customer Name
