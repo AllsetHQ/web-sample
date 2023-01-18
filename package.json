@@ -35,7 +35,7 @@
     "eslint-plugin-react": "7.31.10",
     "eslint-plugin-unicorn": "44.0.2",
     "html-webpack-plugin": "5.5.0",
-    "json-server": "0.17.0",
+    "json-server": "0.17.1",
     "ts-loader": "9.4.1",
     "typescript": "4.8.4",
     "webpack": "5.74.0",
